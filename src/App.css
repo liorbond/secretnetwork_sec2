@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+.main-app {
+    text-align: center;
+    margin: 100px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.op-button {
+    padding: 15px;
+    border: none;
+    border-radius: 12px;
+    min-width: 250px;
+    color: white;
+    background-color: CornflowerBlue;
+    font-size: 18px;
+    cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.connect-wallet-button {
+    background: rgb(32, 129, 226);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.mint-nft-button {
+    background: orange;
 }
 
-.App-link {
-  color: #61dafb;
+input[type=number] {
+  padding: 0;
+  height: 30px;
+  position: relative;
+  left: 0;
+  outline: none;
+  border: 1px solid;
+  border-color: rgba(0, 0, 0, .15);
+  background-color: white;
+  font-size: 16px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
