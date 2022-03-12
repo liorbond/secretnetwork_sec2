@@ -1,0 +1,7 @@
+
+Lior-ETH-Node
+
+Your new key was generated
+
+Public address of the key:   0xC9C149C080bb3fC517127A3a9CF9dDb39709ab6e
+Path of the secret key file: ethblockchain/keystore/UTC--2022-03-12T19-12-33.882603683Z--c9c149c080bb3fc517127a3a9cf9ddb39709ab6e
